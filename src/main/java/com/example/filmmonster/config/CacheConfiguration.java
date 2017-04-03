@@ -41,6 +41,22 @@ public class CacheConfiguration {
             cm.createCache(com.example.filmmonster.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.example.filmmonster.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.example.filmmonster.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Actor.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Address.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Category.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.City.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Country.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Customer.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Film.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.FilmActor.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.FilmCategory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.FilmText.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Inventory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Language.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Payment.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Rental.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Staff.class.getName(), jcacheConfiguration);
+            cm.createCache(com.example.filmmonster.domain.Store.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
